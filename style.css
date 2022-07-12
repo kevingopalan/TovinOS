@@ -181,10 +181,10 @@ p, b {
   transition: 0.3s;
   margin-bottom: -5px;
   z-index: 40;
-  background: #334;
-  padding: 0;
-  padding-bottom: 0;
+  background: var(--darklight);
+  padding: 5px;
   width: calc(100%);
+  text-align: center;
 }
 
 .bar img {

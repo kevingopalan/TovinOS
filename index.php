@@ -1,9 +1,3 @@
-<?php
-  $bg = array('bg-1.jpg', 'bg-2.jpg', 'bg-3.jpg', 'bg-4.jpg', 'bg-5.jpg', 'bg-6.jpg', 'bg-7.jpg', 'bg-8.jpg', 'bg-9.jpg', 'bg-10.jpg', 'bg-11.jpg', 'bg-12.jpg' ); // array of filenames
-
-  $i = rand(0, count($bg)-1); // generate random number size of the array
-  $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
-?>
 <!DOCTYPE html>
 <html lang = "en">
 <head>
@@ -21,7 +15,7 @@
     <meta name="googlebot" content="noindex">
     <style>
       body {
-        background: url("img/Wallpapers/<?php echo $selectedBg; ?>") no-repeat center fixed;
+        background: url("img/Wallpapers/tos-wallpaper.png") no-repeat center fixed;
         background-size: cover;
       }
     </style>

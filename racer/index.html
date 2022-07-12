@@ -61,7 +61,7 @@
   </table>
 
   <div id='instructions'>
-    <p>Use the <b>arrow keys</b> to drive the car.</p>
+    <p>Use the <b>arrow keys</b> to drive the car. Lives: <span id = "lives"></span></p>
   </div>
 
   <div id="racer">
@@ -130,11 +130,12 @@
     var totalCars      = 200;                     // total number of cars on the road
     var currentLapTime = 0;                       // current lap time
     var lastLapTime    = null;                    // last lap time
-
+    var crashcount = 0
     var keyLeft        = false;
     var keyRight       = false;
     var keyFaster      = false;
     var keySlower      = false;
+    var lifesymbol = "❤️";
 
     var hud = {
       speed:            { value: null, dom: Dom.get('speed_value')            },
@@ -186,6 +187,9 @@
           if (Util.overlap(playerX, playerW, sprite.offset + spriteW/2 * (sprite.offset > 0 ? 1 : -1), spriteW)) {
             speed = maxSpeed/5;
             position = Util.increase(playerSegment.p1.world.z, -playerZ, trackLength); // stop in front of sprite (at front of segment)
+            crashcount = 8;
+              alert("Game Over! (If you're using chrome, dont hit ok make a new tab then go back because of chrome bug)");
+              window.location.reload();
             break;
           }
         }
@@ -198,6 +202,11 @@
           if (Util.overlap(playerX, playerW, car.offset, carW, 0.8)) {
             speed    = car.speed * (car.speed/speed);
             position = Util.increase(car.z, -playerZ, trackLength);
+            crashcount++
+            if (crashcount >= 8) {
+              alert("Game Over!");
+              window.location.reload();
+            }
             break;
           }
         }
@@ -234,6 +243,7 @@
 
       updateHud('speed',            5 * Math.round(speed/500));
       updateHud('current_lap_time', formatTime(currentLapTime));
+      document.getElementById("lives").innerHTML =  lifesymbol.repeat(8 - crashcount);
     }
 
     //-------------------------------------------------------------------------
