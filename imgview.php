@@ -1,0 +1,1 @@
+<iframe src = "imgview" width = "1000" height = "600"></iframe>
