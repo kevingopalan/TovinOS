@@ -1,5 +1,6 @@
 :root {
   --darklight: #ffffff;
+  --darklight-blue: #eeffff;
   --darklight-opacity: #ffffff99;
   --darklight-opacity-fbgb: #ffffffde;
 }
@@ -17,7 +18,7 @@ body {
   overflow: hidden;
   cursor: url("cursor.cur"), auto;
   font-family: 'DM Sans';
-  background: url('img/Wallpapers/tos-wallpaper.png') no-repeat center fixed, var(--darklight);
+  background: url('img/Wallpapers/tos-wallpaper.png') no-repeat center fixed, var(--darklight-blue);
   background-size: cover !important;
 }
 
@@ -175,15 +176,18 @@ p, b {
 
 .bar {
   position: fixed;
-  bottom: 0px;
+  bottom: 24px;
   transition: 0.3s;
   margin-bottom: -5px;
   z-index: 40;
-  padding: 1px;
-  width: calc(100%);
+  padding: 2.5px 16px 0px 16px;
+  min-width: 300px;
   background: var(--darklight-opacity-fbgb);
-  backdrop-filter: blur(100px);
+  backdrop-filter: blur(50px);
   text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 50px;
 }
 
 .bar img {
@@ -210,13 +214,11 @@ p, b {
 }
 
 #clock {
-  position: absolute;
+  position: fixed;
   transition: 0.3s;
-  border-radius: 2px;
-  right: 20px;
-  margin-top: 8px;
-  font-size: 14px;
-  display: initial !important;  
+  top: 10px;
+  right: 10px;
+  display: inline !important;
 }
 .cover {
   position: fixed;

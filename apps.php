@@ -34,5 +34,4 @@
   <img src="img/wow64/24x24/apps/software-store.svg" onclick="showWindow(7, 'store.php'); setTimeout(check, 500)" class = "appimg"/>
   <img src="img/wow64/24x24/apps/multimedia-photo-viewer.svg" onclick="showWindow(5, 'imgview.php')" class = "appimg"/>
   <img src="img/wow64/24x24/apps/system-error.svg" onclick="showWindow(6, 'feedback.php')" class = "appimg"/>
-<span id="clock"></span>
 </div>
