@@ -329,7 +329,7 @@ function appmenushow() {
 	document.getElementById("appmenu").style.display = "block";
 	setTimeout(function() {
 		document.getElementById("appmenu").style.opacity = "1";
-		document.getElementById("appmenu").style.bottom = "50px";
+		document.getElementById("appmenu").style.bottom = "100px";
 	}, 100);
 }
 
