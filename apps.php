@@ -8,7 +8,7 @@
 
 <a onclick = "showWindow(9, 'lost.php')"><img src="icons/lost.png" height="48px" width="48px" id = "tos.app.nano-x1.lost" style = "display: none;"/></a>
 
-<a onclick = "showWindow(11, 'settings-new.php')"><img src="img/wow64/64x64/apps/preferences-desktop.svg" height="48px" width="48px" style = "display: none;"/></a>
+<a onclick = "showWindow(11, 'settings-new.php')"><img src="img/wow64/64x64/apps/preferences-desktop.svg" height="48px" width="48px"/></a>
 
     <img src="img/wow64/48x48/status/dialog-information.svg" height="48px" width="48px" onclick="showWindow(2, 'about.php')" />
     <img src="img/wow64/64x64/apps/internet-chat.svg" height="48px" width="48px" onclick="showWindow(4, 'chat.php')" />
