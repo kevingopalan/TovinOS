@@ -6,9 +6,12 @@
 }
 </style>
 <h1>Settings</h1>
-<button onclick = "showWindow(11, 'settings-new.php')">Relaunch</button><br>
 <div class = "settings-actions">
-  <div><img src = "img/wow64/64x64/apps/com.github.maoschanz.DynamicWallpaperEditor.svg"><br>Personalize</div>
-  <div><img src = "img/wow64/64x64/apps/system-users.svg"><br>Users</div>
-  <div><img src = "img/wow64/64x64/apps/system-users.svg"><br>Network</div>
+  <div><img width = "64px" src = "img/wow64/64x64/apps/com.github.maoschanz.DynamicWallpaperEditor.svg"><br>Personalize</div>
+  <div><img width = "64px" src = "img/wow64/64x64/apps/system-users.svg"><br>Users</div>
+  <div><img width = "64px" src = "img/wow64/64x64/apps/internet-web-browser.svg"><br>Network</div>
+  <div><img width = "64px" src = "img/wow64/64x64/apps/system-lock-screen.svg"><br>Security</div>
+  <div><img width = "64px" src = "img/wow64/64x64/apps/preferences-desktop-display.svg"><br>Displays</div>
+  <div><img width = "64px" src = "img/wow64/64x64/apps/org.gnome.DiskUtility.svg"><br>Hardware/Drivers</div>
 </div>
+<button onclick = "showWindow(11, 'settings-new.php')">Relaunch</button><br>
