@@ -25,7 +25,7 @@
     </style>
 </head>
 
-<body onload="loader(); functio(); setTimeout(fnBrowserDetect, 2000); checkdarklight(); currentTime();" id = "bodyid">
+<body onload="loader(); functio(); setTimeout(fnBrowserDetect, 2000); currentTime();" id = "bodyid">
 <?php include('preloader.php');?>  
 <?php include('setup.php');?>
 <div id = "main" style = "opacity: 0; transition: 0.3s;">
@@ -40,7 +40,7 @@
     <?php include('shutdown.php');?>
   </div>
   <script src = "script.js"></script>  
-  <script>currentTime(); bypassUnlockScreen();</script>
+  <script>currentTime(); bypassUnlockScreen(); checkdarklight();</script>
 </body>
 
 </html>

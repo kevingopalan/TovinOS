@@ -1,5 +1,6 @@
 :root {
   --darklight: #ffffff;
+  --darklight-pure: #ffffff;
   --darklight-blue: #eeffff;
   --darklight-opacity: #ffffff99;
   --darklight-opacity-fbgb: #ffffffde;
@@ -259,14 +260,14 @@ p, b {
   height: 100%;
   opacity: 1;
   text-align: center;
-  background: #000000;
+  background: var(--darklight-pure);
 }
 
 .loader img {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-100%, -50%);
+  transform: translate(-50%, -50%);
 }
 .loadtoolong {
   animation: notice 60s linear;

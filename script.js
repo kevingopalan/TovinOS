@@ -74,6 +74,7 @@ function darklight() {
 	var checkBox = document.getElementById("myCheck");
 	if (checkBox.checked == true) {
 		document.querySelector(':root').style.setProperty('--darklight', '#333');
+		document.querySelector(':root').style.setProperty('--darklight-pure', '#000');
 		document.querySelector(':root').style.setProperty('--darklight-blue', '#11243d');
 		document.querySelector(':root').style.setProperty('--darklight-opacity', '#33333399');
 		document.querySelector(':root').style.setProperty('--darklight-opacity-fbgb', '#333333de');
@@ -81,6 +82,7 @@ function darklight() {
 		localStorage.darkMode = 'yes';
 	} else {
 		document.querySelector(':root').style.setProperty('--darklight', '#fff');
+		document.querySelector(':root').style.setProperty('--darklight-pure', '#fff');
 		document.querySelector(':root').style.setProperty('--darklight-blue', '#c7dffc');
 		document.querySelector(':root').style.setProperty('--darklight-opacity', '#ffffff99');
 		document.querySelector(':root').style.setProperty('--darklight-opacity-fbgb', '#ffffffde');
@@ -93,6 +95,7 @@ function checkdarklight() {
 	var checkBox = document.getElementById("myCheck");
 	if (localStorage.darkMode == 'yes') {
 		document.querySelector(':root').style.setProperty('--darklight', '#333');
+		document.querySelector(':root').style.setProperty('--darklight-pure', '#000');
 		document.querySelector(':root').style.setProperty('--darklight-blue', '#11243d');
 		document.querySelector(':root').style.setProperty('--darklight-opacity', '#33333399');
 		document.querySelector(':root').style.setProperty('--darklight-opacity-fbgb', '#333333de');

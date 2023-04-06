@@ -102,7 +102,7 @@
 </div>
 <div class="popup">
   <div class="popup-header">
-    <span class = "hbtn" onmousedown = "maximize(this)">□</span><span class = "hbtn">-</span><span onmousedown = "hide(this);" class = "hbtn close">×</span>
+  <span class = "hbtn" onmousedown = "maximize(this)">□</span><span class = "hbtn">-</span><span onmousedown = "hide(this);" class = "hbtn close">×</span>
   </div>
   <div class="popup-fullheader">
     <span class = "hbtn" onmousedown = "maximize(this)">□</span><span class = "hbtn">-</span><span onmousedown = "hide(this)" class = "hbtn close">×</span>
@@ -112,7 +112,7 @@
 </div>
 <div class="popup">
   <div class="popup-header">
-    <span class = "hbtn" onmousedown = "maximize(this)">□</span><span class = "hbtn">-</span><span onmousedown = "hide(this);" class = "hbtn close">×</span>
+  <span class = "hbtn" onmousedown = "showWindow(11, 'settings-new.php')" style = "float: left;">↽</span><span class = "hbtn" onmousedown = "maximize(this)">□</span><span class = "hbtn">-</span><span onmousedown = "hide(this);" class = "hbtn close">×</span>
   </div>
   <div class="popup-fullheader">
     <span class = "hbtn" onmousedown = "maximize(this)">□</span><span class = "hbtn">-</span><span onmousedown = "hide(this)" class = "hbtn close">×</span>
