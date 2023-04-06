@@ -259,14 +259,14 @@ p, b {
   height: 100%;
   opacity: 1;
   text-align: center;
+  background: #000000;
 }
 
 .loader img {
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-left: -150px;
-  margin-top: -200px;
+  transform: translate(-100%, -50%);
 }
 .loadtoolong {
   animation: notice 60s linear;
