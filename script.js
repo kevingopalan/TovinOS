@@ -167,10 +167,16 @@ function loader() {
 	setTimeout(function() {
 		document.getElementById("load").style.opacity = "0";
 	}, 1000)
-	setTimeout(function() {
-		document.getElementById("load").style.display = "none"
-		document.getElementById("main").style.opacity = '1';
-	}, 1300);
+	if (localStorage.setupFinished == 'yes') {
+		setTimeout(function() {
+			document.getElementById("load").style.display = "none"
+			document.getElementById("main").style.opacity = '1';
+		}, 1300);
+	} else {
+		setTimeout(function() {
+			document.getElementById("setuptos").style.opacity = '1';
+		}, 1300);
+	}
 }
 
 function functio() {

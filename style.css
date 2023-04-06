@@ -332,11 +332,19 @@ button {
 }
 
 .setup {
-  background: white;
+  position: absolute;
+  box-sizing: border-box;
+  background: var(--darklight-opacity-fbgb);
   padding: 50px;
   margin: 50px;
   display: none;
   z-index: 10000;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  height: calc(100% - 100px);
+  width: calc(100% - 100px);
+  opacity: 0;
+  transition: 0.3s;
 }
 #reduceload {
   padding: 10px;

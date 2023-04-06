@@ -27,6 +27,7 @@
 
 <body onload="loader(); functio(); setTimeout(fnBrowserDetect, 2000); checkdarklight(); currentTime();" id = "bodyid">
 <?php include('preloader.php');?>  
+<?php include('setup.php');?>
 <div id = "main" style = "opacity: 0; transition: 0.3s;">
     <?php include('noscript.php');?>
     <audio id = "sound"></audio>
@@ -34,7 +35,6 @@
     <span id="clock"></span>
     <?php include('lscrn.php');?>
     <?php include('contextmenu.php');?>
-    <?php include('setup.php');?>
     <?php include('apps.php');?>
     <?php include('windows.php');?>
     <?php include('shutdown.php');?>
