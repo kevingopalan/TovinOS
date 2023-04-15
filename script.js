@@ -97,6 +97,27 @@ function darklight() {
 	}
 }
 
+function darklight2() {
+	var checkBox = document.getElementById("myChecki");
+	if (checkBox.checked == true) {
+		document.querySelector(':root').style.setProperty('--darklight', '#333');
+		document.querySelector(':root').style.setProperty('--darklight-pure', '#000');
+		document.querySelector(':root').style.setProperty('--darklight-blue', '#11243d');
+		document.querySelector(':root').style.setProperty('--darklight-opacity', '#33333399');
+		document.querySelector(':root').style.setProperty('--darklight-opacity-fbgb', '#333333de');
+		document.body.style.color = "#FFF";
+		localStorage.darkMode = 'yes';
+	} else {
+		document.querySelector(':root').style.setProperty('--darklight', '#fff');
+		document.querySelector(':root').style.setProperty('--darklight-pure', '#fff');
+		document.querySelector(':root').style.setProperty('--darklight-blue', '#c7dffc');
+		document.querySelector(':root').style.setProperty('--darklight-opacity', '#ffffff99');
+		document.querySelector(':root').style.setProperty('--darklight-opacity-fbgb', '#ffffffde');
+		document.body.style.color = "#000"
+		localStorage.darkMode = 'no';
+	}
+}
+
 function checkdarklight() {
 	var checkBox = document.getElementById("myCheck");
 	if (localStorage.darkMode == 'yes') {
@@ -175,16 +196,36 @@ function chromie() {
 function loader() {
 	setTimeout(function() {
 		document.getElementById("load").style.opacity = "0";
+		playAudio("Audio/startup.mp3");
 	}, 1000)
 	if (localStorage.setupFinished == 'yes') {
 		setTimeout(function() {
 			document.getElementById("load").style.display = "none"
 			document.getElementById("main").style.opacity = '1';
-		}, 1300);
+			setTimeout(function() {
+				document.getElementById("welcometext").style.opacity = "1";
+			}, 1000);
+			setTimeout(function() {
+				document.getElementById("welcome").style.opacity = "0";
+			}, 3000);
+			setTimeout(function() {
+				document.getElementById("welcome").style.display = "none";
+			}, 4000);
+		}, 2000);
 	} else {
 		setTimeout(function() {
+			document.getElementById("load").style.display = "none"
 			document.getElementById("setuptos").style.opacity = '1';
-		}, 1300);
+			setTimeout(function() {
+				document.getElementById("welcometextsetup").style.opacity = "1";
+			}, 1000);
+			setTimeout(function() {
+				document.getElementById("welcome").style.opacity = "0";
+			}, 3000);
+			setTimeout(function() {
+				document.getElementById("welcome").style.display = "none";
+			}, 4000);
+		}, 2000);
 	}
 }
 
@@ -451,7 +492,6 @@ function unlock() {
     pswd = document.getElementById('pwdenter').value;
     if (pswd == localStorage.pwd){
 	document.getElementById('lscrn').style.display = "none";
-	playAudio("Audio/login.mp3")
     }
 }
 

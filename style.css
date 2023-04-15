@@ -271,18 +271,22 @@ p, b {
   opacity: 1;
   text-align: center;
   background: var(--darklight-pure);
+  transition: 1s;
 }
 
-.loader img {
+.loader img{
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
 }
-.loadtoolong {
-  animation: notice 60s linear;
-  margin-top: 10%;
-  color: white;
+
+.loader h1{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 @keyframes notice {
   0% {
@@ -327,7 +331,7 @@ p, b {
   min-height: 600px;
 }
 
-input[type="text"] {
+input[type="text"], input[type="password"] {
   background: #f2f2f2;
   padding: 5px;
   border: 0;
@@ -349,7 +353,7 @@ button {
   padding: 50px;
   margin: 50px;
   display: none;
-  z-index: 10000;
+  z-index: 100;
   backdrop-filter: blur(100px);
   border-radius: 10px;
   height: calc(100% - 100px);
