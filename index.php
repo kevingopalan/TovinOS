@@ -31,7 +31,7 @@
 <div id = "main" style = "opacity: 0; transition: 0.3s;">
     <?php include('noscript.php');?>
     <audio id = "sound"></audio>
-    <span style = "margin: 10px;">TovinOS, revision <?php include("version.txt")?></span>
+    <span id = "vernum">TovinOS, revision <?php include("version.txt")?></span>
     <span id="clock"></span>
     <?php include('lscrn.php');?>
     <?php include('contextmenu.php');?>
@@ -40,7 +40,7 @@
     <?php include('shutdown.php');?>
   </div>
   <script src = "script.js"></script>  
-  <script>currentTime(); bypassUnlockScreen(); checkdarklight();</script>
+  <script>currentTime(); checkdarklight();</script>
 </body>
 
 </html>

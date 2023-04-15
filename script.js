@@ -52,6 +52,12 @@ function showWindow(windowNumber, file) {
 	}
 	tosWindow[windowNumber].style.zIndex = "41";
 	tosWindow[windowNumber].children[2].style.pointerEvents = "auto";
+	setTimeout(function() {
+		var winheight = ((tosWindow[windowNumber].offsetHeight - window.innerHeight) / 2) * -1; 
+		var winwidth = ((tosWindow[windowNumber].offsetWidth - window.innerWidth) / 2) * -1; 
+		tosWindow[windowNumber].style.top = JSON.stringify(winheight) + "px";
+		tosWindow[windowNumber].style.left = JSON.stringify(winwidth) + "px";
+	}, 50);
 }
 
 function getFileForElementPrototype(file, elname) {
@@ -147,10 +153,10 @@ function notify(notifhead, notifbody) {
 	notif.innerHTML = '<h4>' + notifhead + '</h4><p>' + notifbody + '</p>'
 	document.getElementById("main").appendChild(notif);
 	notif.classList.add("notif");
-        notif.style.top = "10px";
+        setTimeout(function() {notif.style.right = "10px";}, 50)
 	playAudio("Audio/notif.mp3");
 	notif.onclick = function() {
-		this.style.top = "-100px"
+		this.style.right = "-400px"
 	};
 }
 
@@ -159,10 +165,10 @@ function chromie() {
 	notif.innerHTML = '<h4>Browser notice</h4><p>Please use Chrome or Opera for best performance</p>';
 	document.getElementById("main").appendChild(notif);
 	notif.classList.add("notif");
-  notif.style.top = "10px";
+  notif.style.right = "10px";
 	playAudio("Audio/notice.mp3");
 	notif.onclick = function() {
-		this.style.top = "-100px"
+		this.style.right = "-400px"
 	};
 }
 
