@@ -22,7 +22,9 @@
 <input type = "submit" onclick = "bg()">
 </form>
 <br>
-<label><input type="checkbox" id="myCheck" onclick="darklight()"/> Dark Mode</label>
+<label style = "display: none;"><input type="checkbox" id="myCheck" onclick="darklight()"/> Dark Mode</label>
+<button onclick = "document.getElementById('myCheck').checked = true; darklight()">Dark<br><img src = "img/dark.png" width = "250px"></button>
+    <button onclick = "document.getElementById('myCheck').checked = false; darklight()">Light<br><img src = "img/light.png" width = "250px"></button>
 <span id = "val"></span>
 </div>
 <div style = "display: none" id = "windowHTM2">
