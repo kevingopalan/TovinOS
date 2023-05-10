@@ -7,4 +7,7 @@
   "routes": [
     { "src": "/(.*)",  "dest": "index.php" }
   ]
+  "rewrites": [
+    { "source": "/api", "destination": "/" }
+  ]
 }
