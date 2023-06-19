@@ -37,5 +37,4 @@
 <div style = "display: none" id = "windowHTM4">
 <h1>Security</h1>
 <p>Coming soon</p>
-
 </div>
