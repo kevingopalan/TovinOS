@@ -1,4 +1,3 @@
-<div>
 <style>
 .settings-actions div {
   margin: 16px;
