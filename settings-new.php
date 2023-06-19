@@ -29,9 +29,7 @@
 </div>
 <div style = "display: none" id = "windowHTM2">
 <h1>Users</h1>
-<p>Dummy text</p>
-<p>Dummy text</p>
-<p>Dummy text</p>
+<p>Coming soon</p>
 </div>
 <div style = "display: none" id = "windowHTM3">
 <h1>Network</h1>
