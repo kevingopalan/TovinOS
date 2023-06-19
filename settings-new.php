@@ -33,15 +33,12 @@
 </div>
 <div style = "display: none" id = "windowHTM3">
 <h1>Network</h1>
-<p>Dummy text</p>
-<p>Dummy text</p>
-<p>Dummy text</p>
+<p>Coming Soon.</p>
 </div>
 <div style = "display: none" id = "windowHTM4">
 <h1>Security</h1>
 <p>Dummy text</p>
-<p>Dummy text</p>
-<p>Dummy text</p>
+
 </div>
 <div style = "display: none" id = "windowHTM5">
 <h1>Displays</h1>
