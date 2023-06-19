@@ -7,10 +7,10 @@
 </style>
 <h1>Settings</h1>
 <div class = "settings-actions">
-  <div onclick = "this.parentNode.parentNode.innerHTML = document.getElementById('windowHTM1').innerHTML"><img width = "64px" src = "img/wow64/64x64/apps/com.github.maoschanz.DynamicWallpaperEditor.svg"><br>Personalize</div>
-  <div onclick = "this.parentNode.parentNode.innerHTML = document.getElementById('windowHTM2').innerHTML"><img width = "64px" src = "img/wow64/64x64/apps/system-users.svg"><br>Users</div>
-  <div onclick = "this.parentNode.parentNode.innerHTML = document.getElementById('windowHTM3').innerHTML"><img width = "64px" src = "img/wow64/64x64/apps/internet-web-browser.svg"><br>Network</div>
-  <div onclick = "this.parentNode.parentNode.innerHTML = document.getElementById('windowHTM4').innerHTML"><img width = "64px" src = "img/wow64/64x64/apps/system-lock-screen.svg"><br>Security</div>
+  <div onclick = "this.parentNode.parentNode.innerHTML = document.getElementById('windowHTM1').innerHTML"><img width = "64px" src = "img/wow64/64x64/apps/com.github.maoschanz.DynamicWallpaperEditor.svg"><br/>Personalize</div>
+  <div onclick = "this.parentNode.parentNode.innerHTML = document.getElementById('windowHTM2').innerHTML"><img width = "64px" src = "img/wow64/64x64/apps/system-users.svg"><br/>Users</div>
+  <div onclick = "this.parentNode.parentNode.innerHTML = document.getElementById('windowHTM3').innerHTML"><img width = "64px" src = "img/wow64/64x64/apps/internet-web-browser.svg"><br/>Network</div>
+  <div onclick = "this.parentNode.parentNode.innerHTML = document.getElementById('windowHTM4').innerHTML"><img width = "64px" src = "img/wow64/64x64/apps/system-lock-screen.svg"><br/>Security</div>
 </div>
 </div>
 <div style = "display: none" id = "windowHTM1">
