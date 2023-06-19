@@ -37,7 +37,7 @@
 </div>
 <div style = "display: none" id = "windowHTM4">
 <h1>Security</h1>
-<p>Dummy text</p>
+<p>Coming soon</p>
 
 </div>
 <div style = "display: none" id = "windowHTM5">
