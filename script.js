@@ -18,7 +18,7 @@ if (localStorage.darkMode != 'yes') {
 if (typeof localStorage.wpurl == 'undefined') {
 	localStorage.wpurl = "img/Wallpapers/tos-wallpaper.png";
 } else {
-	document.body.style.background = "url('" + localStorage.wpurl + "') no-repeat center fixed, var(--darklight)";
+	document.body.style.background = "url('" + localStorage.wpurl + "') no-repeat center fixed, var(--darklight-blue)";
 }
 
 if (typeof localStorage.installedapps == 'undefined') {
@@ -39,7 +39,7 @@ if (localStorage.setupFinished != 'yes') {
 function bg() {
 	const valbg = document.getElementById('wallurl').value;
 	localStorage.wpurl = valbg;
-	document.body.style.background = "url('" + valbg + "') no-repeat center fixed, var(--darklight)";
+	document.body.style.background = "url('" + valbg + "') no-repeat center fixed, var(--darklight-blue)";
 }
 
 function showWindow(windowNumber, file) {

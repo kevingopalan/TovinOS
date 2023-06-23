@@ -3,7 +3,6 @@
 <head>
     <link rel="stylesheet" href="font-awesome.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=DM+Sans">
     <meta https-equiv="X-UA-Compatible" content="ie=edge" />
     <meta charset="UTF-8" />
     <link href = "favicon.ico" rel = "shortcut icon">
@@ -32,8 +31,8 @@
     <?php include('noscript.php');?>
     <audio id = "sound"></audio>
     <span id = "vernum">TovinOS, revision <?php include("version.txt")?></span>
-    <span id="clock"></span>
     <?php include('lscrn.php');?>
+    <?php include('statusbar.php');?>
     <?php include('contextmenu.php');?>
     <?php include('apps.php');?>
     <?php include('windows.php');?>
