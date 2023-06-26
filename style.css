@@ -370,7 +370,7 @@ button {
 
 .lscrn {
   position: fixed;
-  background: url("https://images.pexels.com/photos/1146708/pexels-photo-1146708.jpeg?cs=srgb&dl=pexels-johannes-plenio-1146708.jpg&fm=jpghttps://i.ibb.co/qyyYS0G/wallpaperflare-com-wallpaper.jpg") no-repeat center fixed;
+  background: url("img/lockscreen.jpeg") no-repeat center fixed;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -384,9 +384,9 @@ button {
 }
 
 .lscrn h1 {
-  color: white;
-  text-align: center;
-  margin-top: 15vh;
+  color: black;
+  margin: 100px;
+  font-size: 96px;
 }
 
 .lscrn img {
@@ -395,6 +395,7 @@ button {
   width: 100px;
   height: 100px;
   margin-left: calc(50% - 50px);
+  margin-top: calc(50% - 700px);
 }
 
 .lscrn:target {
@@ -412,4 +413,20 @@ button {
   left: 50%;
   top: 10px;
   min-width: 300px;
+}
+
+.logincontainer {
+  position: fixed;
+  background: var(--darklight-opacity);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  z-index: 101;
+  opacity: 0;
+  transition: 0.3s;
 }

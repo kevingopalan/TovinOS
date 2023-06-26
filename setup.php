@@ -1,8 +1,9 @@
 <div class = "setup" id = "setuptos">
-  <h1>Welcome</h1>
+  <h1>Welcome to TovinOS</h1>
   <form onsubmit = "return false">
-    <h2>Security</h2>
-    <input type = password id = "submitpwd" placeholder = "Please enter your password" required>
+    <h2>User Configuration</h2>
+    <input type = "text" id = "submituser" required>
+    <input type = "password" id = "submitpwd" required>
     <br>
     <label style = "display: none;"><input type="checkbox" id="myChecki" onclick="darklight2()"/> Dark Mode</label>
     <br>
