@@ -1,5 +1,5 @@
 # TovinOS
-Description coming
+alpha-git-rcbeta2
 
 ## Known bugs
 
