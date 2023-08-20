@@ -23,12 +23,42 @@
       }
     </style>
 </head>
-
+<noscript>
+      <style>
+        #noscript{
+          opacity:1;
+          z-index: 3123030130103;
+        }
+        
+        .cover2{
+          background: #ff4444;
+          color: white;
+          overflow: suto;
+        }
+        #stuffage:target{
+          display: block;
+        }
+      </style>
+      <div class = "cover2" id = "noscript">
+        <dd>
+          <br>
+          <h1 style = "color: white; font-size: 50px;"><img src = "/wip/TovinOS/img/wow64/64x64/apps/system-error.svg" style = "margin-bottom: -15px;">&nbsp;Oops!</h1>
+          <div>
+            <h1>TovinOS Could not load one or more resources for the system</h1>
+            <p>ERR: JAVASCRIPT_UNAVAILABLE</p>
+            <br>
+            <h1>Look for this icon on the address bar in Chrome/Opera:</h1>
+            <img src = "/wip/TovinOS/img/browserstuff.png">
+            <h1>Or in Firefox, go to about:config and set javascript.enabled to true.</h1>
+            <p>For other browsers, search how to turn on JavaScript on [browser_name]</p>
+          </div>
+        </dd>
+      </div>
+    </noscript>
 <body onload="loader(); functio(); setTimeout(fnBrowserDetect, 2000); currentTime();" id = "bodyid">
 <?php include('preloader.php');?>  
 <?php include('setup.php');?>
 <div id = "main" style = "opacity: 0; transition: 0.3s;">
-    <?php include('noscript.php');?>
     <audio id = "sound"></audio>
     <span id = "vernum">TovinOS, revision <?php include("version.txt")?></span>
     <?php include('lscrn.php');?>

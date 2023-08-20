@@ -1,7 +1,8 @@
 <noscript>
       <style>
-        #noscript{
+        noscript{
           opacity:1;
+          z-index: 3123030130103;
         }
         
         .cover{

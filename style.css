@@ -189,13 +189,13 @@ p, b {
   margin-bottom: -5px;
   z-index: 40;
   padding: 2.5px 16px 0px 16px;
-  min-width: 300px;
+  min-width: 200px;
   background: var(--darklight-opacity-fbgb);
   backdrop-filter: blur(50px);
   text-align: center;
   left: 50%;
   transform: translate(-50%);
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .bar img {
@@ -249,6 +249,21 @@ p, b {
   pointer-events: none;
   transition: 0.3s;
 }
+
+.cover2 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+  top: 0;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
 .mnu {
   padding: 40px;
   min-width: 400px;
