@@ -1,5 +1,7 @@
 # TovinOS
-alpha-git-rcbeta2
+ver. alpha-git-rcbeta2
+
+An OS concept on the web
 
 ## Known bugs
 
@@ -8,3 +10,9 @@ alpha-git-rcbeta2
 - The audio will not play unless the client's audio setting for the site is set to "allow"
 - The app menu will only close if you click on it
 - The login inputs appear half out of the screen on some browsers
+
+## To-do
+
+- Refresh logo on all surfaces
+- Fix bugs
+- Clean up useless garbage code that is taking up space
