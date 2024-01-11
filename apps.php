@@ -9,7 +9,7 @@
 
 <a onclick = "showWindow(11, 'settings-new.php')"><img src="img/wow64/64x64/apps/preferences-desktop.svg" height="48px" width="48px"/></a>
 
-    <img src="img/wow64/64x64/apps/internet-chat.svg" height="48px" width="48px" onclick="showWindow(4, 'chat.php')" />
+    <img src="img/BeautySolar/apps/scalable/applications-chat.svg" height="48px" width="48px" onclick="showWindow(4, 'chat.php')" />
     <a onclick = "showWindow(3, 'files.php')"><img src="img/wow64/64x64/apps/system-file-manager.svg" height="48px" width="48px"/></a>
     <a onclick = "showWindow(6, 'feedback.php')"><img src="img/wow64/64x64/apps/system-error.svg" height="48px" width="48px"/></a>
     <img src="img/wow64/64x64/apps/software-store.svg" onclick="showWindow(7, 'store.php'); setTimeout(check, 500)" height="48px" width="64px"/>
