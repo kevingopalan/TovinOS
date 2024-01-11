@@ -184,18 +184,15 @@ p, b {
 
 .bar {
   position: fixed;
-  bottom: 24px;
+  bottom: 0;
   transition: 0.3s;
   margin-bottom: -5px;
   z-index: 40;
   padding: 2.5px 16px 0px 16px;
-  min-width: 200px;
-  background: var(--darklight-opacity-fbgb);
+  min-width: 100%;
+  background: var(--darklight-opacity);
   backdrop-filter: blur(50px);
   text-align: center;
-  left: 50%;
-  transform: translate(-50%);
-  border-radius: 10px;
 }
 
 .bar img {
