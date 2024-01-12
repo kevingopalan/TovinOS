@@ -140,7 +140,8 @@ function currentTime() {
 	hour = (hour == 0) ? 12 : ((hour > 12) ? (hour - 12) : hour); /* assigning hour in 12-hour format */
 	hour = updateTime(hour);
 	min = updateTime(min);
-	document.getElementById("clock").innerText = hour + ":" + min + " " + midday; /* adding time to the div */
+	document.getElementById("clock").innerText = hour + ":" + min + " " + midday;
+	document.getElementById("clock2").innerText = hour + ":" + min + " " + midday; /* adding time to the div */
 	var t = setTimeout(currentTime, 1); /* setting timer */
 }
 

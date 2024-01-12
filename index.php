@@ -61,6 +61,7 @@
 <div id = "main" style = "opacity: 0; transition: 0.3s;">
     <audio id = "sound"></audio>
     <span id = "vernum">TovinOS, revision <?php include("version.txt")?></span>
+    <div style = "font-size: 160px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -70%); font-family: outfit; text-align: center;"><span id="clock2" style = "font-weight: bold; opacity: 0.5;"></span><p style = "margin-top: -10px; font-weight: 400; font-size: 20px;">DECEMBER 23, 2023</p></div>
     <?php include('lscrn.php');?>
     <?php include('statusbar.php');?>
     <?php include('contextmenu.php');?>
