@@ -16,3 +16,5 @@ An OS concept on the web
 - Refresh logo on all surfaces
 - Fix bugs
 - Clean up useless garbage code that is taking up space
+- Finish store
+- Finish Stormly first before continuing on with this project
