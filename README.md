@@ -3,6 +3,8 @@ ver. alpha-git-rcbeta2
 
 An OS concept on the web
 
+Currently paused I guess (stil some minor changes every few months or so)
+
 ## Known bugs
 
 - Setup does not load if dark mode is toggled when setup is not finished
