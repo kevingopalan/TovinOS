@@ -1,1 +1,0 @@
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Coming soon...</p>

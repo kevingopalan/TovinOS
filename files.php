@@ -1,1 +1,0 @@
-<iframe src = "/tinyfilemanager" width = "1000" height = "550"></iframe>
